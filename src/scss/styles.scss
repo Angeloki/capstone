@@ -1,0 +1,187 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+
+$font-family: 'Pacifico', cursive;
+
+.carousel{
+    margin-bottom: 4rem;
+
+}
+
+.carousel-item{
+    height: 32rem;
+}
+
+h1, h2, h3, h4, h5, header {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar{
+    font-family: 'Pacifico', cursive;
+    
+}
+
+a.navbar-brand{
+    color: white;
+}
+
+a.nav-link.active{
+    background-color: #D8B4E2;
+}
+
+footer{
+    background-color: #55286F;
+    text-align: center;
+    margin-top: 5%;
+    clear: both;
+    
+}
+
+a.footer-link{
+    font-family: 'Pacifico', cursive;
+    background-color: #D8B4E2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ 
+li.service-list-item{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+div.info p {
+    text-align: center;
+    font-size: 15px;
+}
+
+a.nav-link{
+    color: white;
+}
+
+div.about-company{
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    
+}
+
+
+.wrapper{
+  max-width: 350px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 5px;
+  
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  color: #332902;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.carousel{
+    margin-bottom: 4rem;
+
+}
+
+.carousel-item{
+    height:45rem;
+}
+
+.contact-info{
+    text-align: center;
+    
+}
+
+h2{
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.cleaner-pics{
+    height: 250px;
+}
+
+.card {
+    margin: 7%;
+}
+.more-pics{
+   max-width: 100%;
+}
+
+.leader-pics{
+    width: 45%;
+}
+
+.leader-pics2{
+    width: 44%;
+}
+
+.founder1{
+padding-top: 5%;
+text-align: center;
+}
+
+.founder2{
+    padding-top: 28%;
+    text-align: center;
+}
+
+.crew{
+    padding: 5% 5% 5% 5%;
+   max-width: 100%;
+}
+
+.crew-title{
+    padding-top: 30%;
+}
+
+.about-pic{
+    max-width: 100%;
+    height: auto;
+}
+
+.prices-pic{
+    max-width: 100%;
+}
